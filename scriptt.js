@@ -270,7 +270,7 @@ function epassword(){
            if(a==4){
                var s=username*(Math.pow((1+(cpassword/(n*100))),(n*password)))
                document.getElementById("si").innerHTML="Compound Intrest : " + s; 
-               alert(s)
+              
             document.getElementById("form").reset();
            }
         }
