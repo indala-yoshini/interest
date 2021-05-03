@@ -203,7 +203,7 @@ function epassword(){
            if(a==3){
                var s=(username*password*cpassword)/100;
                document.getElementById("si").innerHTML="simple Intrest : " + s; 
-               alert(s)
+              
             document.getElementById("form").reset();
            }
         }
